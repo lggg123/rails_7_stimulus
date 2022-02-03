@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple rails app and we will begin the process of beginning the construction of user-feedback. To create this app from scratch type `rails new <name of app>` this will create a rails 7 app from scratch. If you want to start on any of these repos simply type this to clone the repo `git clone https://www.github.com/lggg123/rails_7_stimulus.git` remember you cant start the project unless your database is established. To establish your database simply type this in the terminal for your app `rails db:create` then `rails db:migrate` and to run it locally on your computer type `rails s` and navigate to localhost:3000.
 
-Things you may want to cover:
+If you run into any trouble it is because you probably dont have postgres setup and simply google postgres and follow the instructions on setting it up. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Another error could be that you are not on rails 7 and ruby 3.0.0

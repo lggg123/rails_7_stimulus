@@ -1,1 +1,6 @@
-<%= link_to Rails.application.class.module_parent.name, root_path %>
+<center>
+    <h1>
+        <%= link_to_unless_current Rails.application.class.module_parent.name, root_path %>
+    </h1>
+</center>
+<hr>

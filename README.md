@@ -5,3 +5,5 @@ This is a simple rails app and we will begin the process of beginning the constr
 If you run into any trouble it is because you probably dont have postgres setup and simply google postgres and follow the instructions on setting it up. 
 
 Another error could be that you are not on rails 7 and ruby 3.0.0
+
+to fix the style and check for syntax errors run this ```bundle exec rubocop```
